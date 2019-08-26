@@ -1,0 +1,32 @@
+@import "@material/drawer/mdc-drawer.scss";
+@import "@material/list/mdc-list.scss";
+
+.site-branding{
+    text-align: center;
+    background-color: $mdc-theme-primary;
+    padding: 12px;
+}
+.site-title a{
+    text-decoration: none;
+}
+.site-title a:visited, .site-description, .site-title a{
+    color: white;
+}
+
+.nav-menu{
+    @extend .mdc-list;
+}
+
+.page_item, .menu_item, .menu-item{
+    @extend .mdc-list-item;
+}
+
+.wpp-thumbnail{
+    @extend .mdc-list-item__graphic;
+    border-radius: 10%;
+}
+
+.wpp-list{
+    background: var(--mdc-theme-surface);
+    border: var(--stallion-border);
+}

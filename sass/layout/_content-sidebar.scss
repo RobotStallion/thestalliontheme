@@ -1,0 +1,28 @@
+.content-area {
+	float: left;
+	margin: 0 (-$size__site-sidebar) 0 0;
+	width: $size__site-main;
+}
+
+.site-main {
+	//margin: 1% $size__site-sidebar+5% 0 5%;
+}
+
+.site-container{
+	margin-top: 16px;
+	max-width: 1200px;
+}
+
+.site-content .widget-area {
+	/*float: right;
+	overflow: hidden;
+	width: $size__site-sidebar;
+	margin-top: 1%*/
+}
+
+.site-footer {
+	clear: both;
+	width: $size__site-main;
+}
+
+@import "no-sidebar";

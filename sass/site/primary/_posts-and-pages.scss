@@ -1,0 +1,33 @@
+.sticky {
+	display: block;
+}
+
+.post, .type-page{
+	margin: 0 0 1.5em;
+	background-color: var(--mdc-theme-surface);
+	border-radius: 4px;
+	border: var(--stallion-border);
+}
+
+.type-page{
+	padding: 0 16px 0 16px;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 4rem 0 4rem;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.entry-footer{
+	padding: 0 4rem 0 4rem;
+}

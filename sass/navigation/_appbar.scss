@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .mdc-drawer-app-content {
+    flex: auto;
+    overflow: auto;
+    position: relative;
+  }
+  
+  .main-content {
+    overflow: auto;
+    height: 100%;
+  }
+
+  .site{
+    display: contents;
+  }
+  
+  .app-bar {
+    position: absolute;
+  }
+  .admin-bar .app-bar {
+    top: 32px;
+  }
+  .admin-bar .mdc-top-app-bar--fixed-adjust{
+    padding-top: 88px;
+  }
+  @media screen and (max-width: 782px) {
+    .admin-bar .app-bar {
+      top: 46px;
+    }
+    .admin-bar .mdc-top-app-bar--fixed-adjust{
+      padding-top: 102px;
+    }
+  }
+  
+  .mdc-top-app-bar {
+    z-index: 7;
+  }
+  

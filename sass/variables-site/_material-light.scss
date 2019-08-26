@@ -1,0 +1,8 @@
+:root{
+    --mdc-theme-background: #{$theme-background-light};
+    --mdc-theme-text-primary-on-background: rgba(0, 0, 0, 0.87);
+    --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+    --mdc-theme-surface: #{$theme-surface};
+    --mdc-theme-on-surface: #{$theme-on-surface-light};
+    --stallion-border: 1px solid black;
+}

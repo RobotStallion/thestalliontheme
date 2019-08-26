@@ -1,0 +1,24 @@
+@import 'material-colors';
+
+$mdc-theme-primary: $theme-primary;
+$mdc-theme-secondary: $theme-secondary;
+$mdc-theme-background: $theme-background-light;
+$mdc-theme-on-surface: $theme-on-surface-light;
+$mdc-theme-surface: $theme-surface;
+
+@import "material-components-web/material-components-web.scss";
+
+
+:root{
+    --stallion-border: 1px solid black;
+}
+@media (prefers-color-scheme: dark) {
+    :root{
+        --mdc-theme-background: #{$theme-background-dark};
+        --mdc-theme-text-primary-on-background: var(--mdc-theme-text-primary-on-dark);
+        --mdc-theme-text-secondary-on-background: var(--mdc-theme-text-secondary-on-dark);
+        --mdc-theme-surface: #{$theme-on-surface-dark};
+        --mdc-theme-on-surface: #{$theme-on-surface-dark};
+        --stallion-border: none;
+    }
+}

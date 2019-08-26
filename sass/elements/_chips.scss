@@ -1,0 +1,24 @@
+@import "@material/chips/mdc-chips.scss";
+
+#cat-menu{
+    list-style: none;
+    margin-bottom: 16px;
+    @extend .mdc-chip-set;
+    li{
+        @extend .mdc-chip;
+        color: var(--mdc-theme-text-primary-on-background);
+        a{
+            @extend .mdc-chip__text;
+        
+        }
+    }
+}
+
+.mdc-chip{
+    color: var(--mdc-theme-text-primary-on-background);
+    background: var(--mdc-theme-surface);
+}
+
+.current-menu-item{
+    @extend .mdc-chip--selected;
+}

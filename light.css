@@ -1,0 +1,7 @@
+:root {
+  --mdc-theme-background: #f2f2f2;
+  --mdc-theme-text-primary-on-background: rgba(0, 0, 0, 0.87);
+  --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+  --mdc-theme-surface: #fff;
+  --mdc-theme-on-surface: black;
+  --stallion-border: 1px solid black; }

@@ -1,0 +1,55 @@
+:root {
+  --mdc-theme-background: #121212;
+  --mdc-theme-text-primary-on-background: var(--mdc-theme-text-primary-on-dark);
+  --mdc-theme-text-secondary-on-background: var(--mdc-theme-text-secondary-on-dark);
+  --mdc-theme-surface: #1f1f1f;
+  --mdc-theme-on-surface: #fff;
+  --stallion-border: none; }
+
+:not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item::before, :not(.mdc-list--non-interactive) > .page_item:not(.mdc-list-item--disabled)::before, :not(.mdc-list--non-interactive) > .menu_item:not(.mdc-list-item--disabled)::before, :not(.mdc-list--non-interactive) > .menu-item:not(.mdc-list-item--disabled)::before, :not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item::after, :not(.mdc-list--non-interactive) > .page_item:not(.mdc-list-item--disabled)::after, :not(.mdc-list--non-interactive) > .menu_item:not(.mdc-list-item--disabled)::after, :not(.mdc-list--non-interactive) > .menu-item:not(.mdc-list-item--disabled)::after, .mdc-card__primary-action::before, .mdc-card__primary-action::after {
+  background-color: #fff; }
+
+/*
+
+$mdc-theme-primary: $theme-primary;
+$mdc-theme-secondary: $theme-secondary;
+$mdc-theme-background: $theme-background-dark;
+$mdc-theme-on-surface: $theme-on-surface-dark;
+$mdc-theme-surface: $theme-surface-dark;
+
+@import "@material/ripple/mdc-ripple";
+@import "@material/card/mdc-card";
+@import "@material/list/mdc-list";
+@import "@material/theme/mdc-theme";
+
+
+:root{
+    --stallion-border: 1px solid black;
+}
+
+@media (prefers-color-scheme: dark) {
+:root{
+    --mdc-theme-background: #121212;
+    --mdc-theme-text-primary-on-background: var(--mdc-theme-text-primary-on-dark);
+    --mdc-theme-text-secondary-on-background: var(--mdc-theme-text-secondary-on-dark);
+    --mdc-theme-surface: #1f1f1f;
+    --mdc-theme-on-surface: #fff;
+    --stallion-border: none;
+}
+}
+*/
+/*
+Dark Mode
+*/
+/*
+@media (prefers-color-scheme: dark) {
+    :root{
+        --mdc-theme-text-primary-on-background: var(--mdc-theme-text-primary-on-dark);
+        --mdc-theme-text-secondary-on-background: var(--mdc-theme-text-secondary-on-dark);
+        --stallion-border: none;
+    }
+    .mdc-card__primary-action{
+        @include mdc-states(#fff);
+    }
+}
+*/

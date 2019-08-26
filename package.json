@@ -1,0 +1,23 @@
+{
+  "name": "the-stallion",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-zip": "^4.2.0",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "dark-mode-toggle": "^0.1.1",
+    "material-components-web": "^2.2.0",
+    "theia-sticky-sidebar": "^1.7.0"
+  }
+}
